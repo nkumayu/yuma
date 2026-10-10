@@ -1,0 +1,34 @@
+cv:
+  name: Yu Ma (马宇)
+  label: Third-year master's student
+  email: my1911453@163.com
+  summary: >-
+    Master's student at the School of Cyber Science and Technology, Shandong University,
+    supervised by Prof. Meiqin Wang (王美琴). Research interests include side-channel
+    attacks, leakage analysis, and masking countermeasures for post-quantum digital signatures.
+  sections:
+    Education:
+      - institution: Shandong University
+        area: School of Cyber Science and Technology
+        studyType: "Master's degree (in progress)"
+        start_date: "2024"
+        end_date: "2027 (expected)"
+        highlights:
+          - "Supervisor: Prof. Meiqin Wang (王美琴)."
+          - "Expected graduation: 2027."
+      - institution: Nankai University
+        area: College of Cyber Science
+        studyType: "Bachelor's degree"
+        start_date: "2019"
+        end_date: "2024"
+    Interests:
+      - name: Post-quantum digital signatures
+        keywords:
+          - Side-channel attacks
+          - Leakage analysis
+          - Masking countermeasures
+    Publication record:
+      - bullet: "No publications at present."
+    Additional information:
+      - bullet: "Research projects, technical skills, awards, and academic service: to be added."
+      - bullet: "CV PDF: to be added."

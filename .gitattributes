@@ -1,0 +1,8 @@
+* text=auto
+*.sh text eol=lf
+*.rb text eol=lf
+*.yml text eol=lf
+*.scss text eol=lf
+*.liquid text eol=lf
+Gemfile text eol=lf
+Gemfile.lock text eol=lf

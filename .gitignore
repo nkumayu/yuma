@@ -1,0 +1,17 @@
+_site/
+_site-project/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+node_modules/
+.template-source/
+.work/
+output/
+al-folio-upgrade-report.md
+__pycache__/
+*.pyc
+.DS_Store
+_config.pages.yml
+.playwright-cli/

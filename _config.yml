@@ -1,0 +1,179 @@
+# al-folio v1 starter; theme functionality stays in pinned Ruby gems.
+title: Yu Ma
+first_name: Yu
+middle_name: ""
+last_name: Ma
+lang: en
+description: >-
+  Yu Ma is a master's student at Shandong University working on side-channel
+  attacks, leakage analysis, and masking for post-quantum digital signatures.
+keywords: Yu Ma, cryptography, post-quantum signatures, side-channel analysis, masking, Shandong University
+contact_note: Academic correspondence is welcome by email.
+footer_text: >-
+  Shandong University.<br>
+  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and
+  <a href="https://jekyllrb.com/">Jekyll</a> ·
+  Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
+icon: favicon.svg
+
+# Local builds work without knowing the GitHub username.
+# The Actions workflow overrides these from github.repository at build time.
+# For manual deployments, replace url and set baseurl (see docs/DEPLOYMENT.md).
+url: "http://localhost:8080"
+baseurl: ""
+last_updated: false
+back_to_top: false
+navbar_fixed: true
+footer_fixed: false
+max_width: 1020px
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: true
+protect_email: false
+serve_og_meta: true
+serve_schema_org: false
+og_image: /assets/img/profile-portrait.jpg
+
+theme: al_folio_core
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  features:
+    cv:
+      enabled: true
+    distill:
+      enabled: false
+  compat:
+    bootstrap:
+      enabled: false
+  upgrade:
+    channel: stable
+    auto_apply_safe_fixes: false
+
+plugins:
+  - jekyll-cache-bust
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - jekyll-link-attributes
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_citations
+  - al_folio_upgrade
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+include: [_pages]
+exclude:
+  - bin/
+  - docs/
+  - README.md
+  - LICENSE
+  - THIRD_PARTY_NOTICES.md
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - .template-source/
+  - .work/
+  - output/
+  - vendor/
+  - node_modules/
+  - _config.pages.yml
+  - _site-project/
+  - al-folio-upgrade-report.md
+keep_files: [CNAME, .nojekyll]
+defaults:
+  - scope:
+      path: assets
+    values:
+      sitemap: false
+sass:
+  style: compressed
+
+scholar:
+  last_name: [Ma]
+  first_name: [Yu, Y.]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+enable_publication_thumbnails: false
+max_author_limit: 5
+more_authors_animation_delay: 10
+filtered_bibtex_keywords:
+  [abbr, abstract, additional_info, annotation, award, award_name, bibtex_show, code, pdf, poster, preview, selected, slides, supp, video, website]
+
+external_links:
+  enabled: true
+  rel: external noopener noreferrer
+  target: _blank
+external_sources: []
+imagemagick:
+  enabled: false
+lazy_loading_images: true
+enable_darkmode: true
+enable_navbar_social: false
+enable_masonry: false
+enable_math: false
+enable_medium_zoom: false
+enable_progressbar: false
+enable_tooltips: false
+enable_cookie_consent: false
+enable_simple_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+newsletter:
+  enabled: false
+
+# Required by al_icons. SRI values follow the pinned official starter.
+# Text uses system fallbacks when the font service is unavailable.
+third_party_libraries:
+  download: false
+  fontawesome:
+    version: "7.2.0"
+    integrity:
+      css: sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"
+  academicons:
+    version: "1.9.5"
+    integrity:
+      css: sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css"
+  scholar-icons:
+    version: "1.0.3"
+    integrity:
+      css: sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=
+    url:
+      css: "https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
