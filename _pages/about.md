@@ -25,7 +25,7 @@ I am a third-year master's student at the **School of Cyber Science and Technolo
 
 My research focuses on the implementation security of **post-quantum digital signature algorithms**, with particular interests in side-channel attacks, leakage analysis, and masking countermeasures.
 
-I received my bachelor's degree from the **College of Cyber Science, Nankai University**, where I studied from 2019 to 2024. I am pursuing my master's degree at Shandong University from 2024 to 2027, with graduation expected in 2027.
+I received my bachelor's degree from the **College of Cyber Science, Nankai University**, where I studied from 2020 to 2024. I am pursuing my master's degree at Shandong University from 2024 to 2027, with graduation expected in 2027.
 
 <div class="action-links">
   <a class="academic-button" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>

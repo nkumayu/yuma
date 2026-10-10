@@ -11,7 +11,7 @@ Built from the open-source [al-folio](https://github.com/alshedivat/al-folio) v1
 - **About**：个人简介、照片、研究方向及联系方式。
 - **Research**：后量子数字签名的侧信道攻击、泄漏分析和掩码防护。
 - **Publications**：明确显示目前无论文；后续直接添加真实 BibTeX。
-- **CV**：2019–2024 南开大学本科；2024–2027 山东大学硕士（预计 2027 年毕业）。
+- **CV**：2020–2024 南开大学本科；2024–2027 山东大学硕士（预计 2027 年毕业）。
 - **Contact**：真实邮箱；未提供的社交主页和地址显示 `To be added`。
 
 你的原始照片保存在 `assets/img/profile-portrait.jpg`，通过 CSS 控制显示比例，未修改原图。
