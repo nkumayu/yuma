@@ -2,6 +2,8 @@
 
 English academic website for **Yu Ma (马宇)**, a third-year master's student in the School of Cyber Science and Technology, Shandong University, supervised by Prof. Meiqin Wang.
 
+**Live website:** <https://nkumayu.github.io/yuma/> · **Source:** [nkumayu/yuma](https://github.com/nkumayu/yuma)
+
 Built from the open-source [al-folio](https://github.com/alshedivat/al-folio) v1 starter. Layouts, navigation, dark mode, BibTeX publication rendering, and CV rendering are provided by pinned al-folio plugin gems. This is a Jekyll site, with no Node.js build step.
 
 ## 网站内容

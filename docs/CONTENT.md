@@ -23,7 +23,7 @@
 
 ## 当前明确保留的占位符
 
-- GitHub 账号、Google Scholar 主页：`_data/socials.yml` 中为空，Contact 显示 `To be added`。
+- Google Scholar 主页：`_data/socials.yml` 中为空，Contact 显示 `To be added`。GitHub 账号已设置为 `nkumayu`。
 - 办公地点和通信地址：Contact 显示 `To be added`。
 - 具体研究项目、算法、实验平台、数据集、开源代码和实验结果：Research 标为 `Project details — to be added`。
 - 技术技能、奖项、学术服务：CV 标为 `to be added`，不展示模板示例。
